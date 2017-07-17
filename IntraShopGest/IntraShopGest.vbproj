@@ -122,6 +122,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bienvenida.aspx" />
     <Content Include="css\EstilosShop.css" />
     <Content Include="css\Maestro.css" />
     <Content Include="Imagenes\cancela.png" />
@@ -140,6 +141,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\Class1.vb" />
+    <Compile Include="Bienvenida.aspx.vb">
+      <DependentUpon>Bienvenida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Maestro.Master.designer.vb">
       <DependentUpon>Maestro.Master</DependentUpon>
     </Compile>

@@ -60,17 +60,16 @@ function validar_rut(source, arguments) {
              </div>
          <div id ="contenido" runat="server">            
          
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder>
+         
          </div>
          <div id ="menulateral" runat="server">                                
-                             <asp:Panel ID="Panel_menu" runat="server" BackColor="White" 
-                                 CssClass="panelmenu" Height="372px" ScrollBars="Vertical" 
-                                 ViewStateMode="Disabled" Visible="False">
-                             </asp:Panel>                        
             <asp:Panel ID="Panel_Login" runat="server" CssClass="panellogin" ViewStateMode="Disabled" Visible="False">
                 <asp:LinkButton ID="LNKB_CerrarSesion" runat="server" CssClass="etiquetas_cerrarsesion">Cerrar Sesión</asp:LinkButton>
             </asp:Panel>                
                       </div>
-         <div id ="pie" runat="server" class="auto-style9">                                           
+         <div id ="pie" runat="server">                                           
                                         <table cellspacing="1" class="auto-style3">
                                             <tr>
                                                 <td class="auto-style16" >
@@ -87,11 +86,21 @@ function validar_rut(source, arguments) {
                                                 <td class="auto-style17">&nbsp;<asp:Label ID="CTienda" runat="server" CssClass="etiquetas" ViewStateMode="Enabled"></asp:Label>
                                                 </td>
                                                 <td >
+                                                    &nbsp;</td>
+                                                <td >
+                                                    &nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style16" >
                                                     <asp:Label ID="Label13" runat="server" CssClass="etiquetas" Text="Caja"></asp:Label>
                                                 </td>
-                                                <td >
+                                                <td class="auto-style17">
                                                     <asp:Label ID="Caja" runat="server" CssClass="etiquetas" ViewStateMode="Enabled"></asp:Label>
                                                 </td>
+                                                <td >
+                                                    &nbsp;</td>
+                                                <td >
+                                                    &nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <td class="auto-style16" >
@@ -100,6 +109,20 @@ function validar_rut(source, arguments) {
                                                 <td  colspan="3">
                                                     <asp:Label ID="CajaNombreTienda" runat="server" CssClass="etiquetas" ViewStateMode="Enabled"></asp:Label>
                                                 </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style16" >
+                                                    <asp:Label ID="Label15" runat="server" CssClass="etiquetas" Text="Fecha"></asp:Label>
+                                                </td>
+                                                <td  colspan="3">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style16" >
+                                                    <asp:Label ID="Label16" runat="server" CssClass="etiquetas" Text="Hora"></asp:Label>
+                                                </td>
+                                                <td  colspan="3">
+                                                    &nbsp;</td>
                                             </tr>
                                         </table>
            </div>

@@ -22,8 +22,8 @@
 }
 #contenido
 {
-      width: 775px;
-      height:589px;
+      width: 988px;
+      height:460px;
       background-color:whitesmoke;
       right:1px;
       float:right;
@@ -56,12 +56,11 @@
 }
 #pie
 {
-      height: 60px;
+      height: 130px;
       width: 210px;
       position:absolute;
 	  background-color:whitesmoke;
-      float:left;
-	  bottom:2px;
+      right:1px;
 }
   .ItemDIV 
 {
