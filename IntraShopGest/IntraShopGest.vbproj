@@ -95,6 +95,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="InformesAvance\" />
+    <Folder Include="InformesVentas\" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -120,9 +122,31 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\EstilosShop.css" />
+    <Content Include="css\Maestro.css" />
+    <Content Include="Imagenes\cancela.png" />
+    <Content Include="Imagenes\cargando.gif" />
+    <Content Include="Imagenes\cargando_popup.gif" />
+    <Content Include="Imagenes\cargando_popup_negro.gif" />
+    <Content Include="Imagenes\cargando_textbox.gif" />
+    <Content Include="Imagenes\familyshop_logo.jpg" />
+    <Content Include="Imagenes\finger6.png" />
+    <Content Include="Imagenes\firma.jpg" />
+    <Content Include="Imagenes\lupa.jpg" />
+    <Content Include="Imagenes\mano.jpg" />
+    <Content Include="Imagenes\mano_grande.png" />
+    <Content Include="Imagenes\mano_volver.jpg" />
+    <Content Include="Imagenes\ok.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Maestro.Master.designer.vb">
+      <DependentUpon>Maestro.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro.Master.vb">
+      <DependentUpon>Maestro.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -155,6 +179,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Maestro.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

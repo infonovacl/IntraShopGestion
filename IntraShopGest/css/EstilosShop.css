@@ -1,0 +1,230 @@
+﻿.etiquetas{ 
+                font-family:Arial;
+                font-size:11px;
+                font-weight:bold;
+                color:black;
+                text-align: left;
+}
+.etiquetas_login{ 
+                font-family:Arial;
+                font-size:11px;
+                font-weight:bold;
+                color:black;
+                text-align: right;
+}
+.etiquetas_titulo{ 
+                font-family:Arial;
+                font-size:14px;
+                font-weight:bold;
+                color:black;
+                text-align: left;
+                text-decoration: underline;
+}
+.etiquetas_tab{ 
+                font-family:Arial;
+                font-size:12px;
+                font-weight:bold;
+                color:black;
+                text-align: left;
+}
+.etiquetas_popup{ 
+                font-family:Arial;
+                font-size:11px;
+                font-weight:bold;
+                color:black;
+                text-align: center;
+}
+.etiquetas_cerrarsesion{ 
+                font-family:Arial;
+                font-size:8pt;
+                font-weight:bold;
+                color:blue;
+                text-align: left;
+                font-style: italic;
+}
+.etiquetas_tabtotales{ 
+                font-family:Arial;
+                font-size:14px;
+                font-weight:bold;
+                color:black;             
+}
+.etiquetasmensaje{ 
+                font-family:Arial;
+                font-size:11px;
+                font-weight:bold;
+                color:red;         
+                text-transform: uppercase;      
+}
+.etiquetasimportante{ 
+                font-family:Arial;
+                font-size:14px;
+                font-weight:bold;               
+                text-transform: uppercase;                
+}
+.etiquetas_introdoc{ 
+                font-family:Arial;
+                font-size:13px;
+                font-weight:bold;   
+                color:Black;            
+                text-transform: uppercase;                
+}
+.etiquetasimportante_login{ 
+                font-family:Arial;
+                font-size:14px;
+                font-weight:bold;               
+                text-transform: uppercase;   
+                text-align:right;             
+}
+.etiquetasmensajeerror {
+                font-family:Arial;
+                font-size:11px;
+                font-weight:bold;
+                color:red;         
+                text-transform: uppercase;
+                text-align: left;
+}
+.checkboxlist{ 
+                font-family:Arial;
+                font-size:12px;        
+                font-weight:bold;      
+                text-align: left;
+}
+.cajastextoparametro{
+                font-family:Arial;
+                font-size:12px;
+                height:12px;
+                font-weight:bold;
+                text-transform: uppercase;               
+}
+.cajastexto{
+                font-family:Arial;
+                font-size:11px;
+                height:11px;
+                text-transform: uppercase;
+                color:black;
+                text-align: left;
+}
+.cajastextonumerico{
+                font-family:Arial;
+                font-size:11px;
+                text-transform: uppercase;
+                text-align:right;
+                color:black;
+                height:11px;
+ }
+.cajastexto_tab{
+                font-family:Arial;
+                font-size:12px;
+                text-transform: uppercase;
+                text-align:left;
+                color:black;
+ }
+.cajastexto_popup{
+                font-family:Arial;
+                font-size:11px;
+                text-transform: uppercase;
+                text-align:left;
+                color:black;
+ }
+.cajastextonumerico_tab{
+                font-family:Arial;
+                font-size:12px;
+                text-transform: uppercase;
+                text-align:right;
+                color:black;
+ }
+.tablas{
+                border: 1px outset #FFCC00;              
+                margin-top: 2px;
+                margin-bottom: 2px;
+                width: 775px;
+                height: 1px;
+}
+.tablalogin{
+                margin-left: auto;
+                margin-right: auto;
+                width: 209px;
+}
+.botones{
+                width:75px;
+                height:22px;
+}
+.botones_ancho{
+                width:120px;
+                height:22px;
+}
+.botones_anchoX2{
+                width:180px;
+                height:22px;
+                text-align: center;
+}
+.tabla_tabcontainer{
+                border-style: none;
+                border-color: inherit;
+                border-width: 1px;     
+                width: 718px;                                       
+}
+.panel_tab{
+                background-color:white;
+                height:210px;
+                width:755px;
+}
+.grillas_tab{
+                font-family:Arial;
+                font-size:12px;
+}
+.grillaschicas_tab{
+                font-family:Arial;
+                font-size:11px;
+}
+.fondo{
+                background-color:whitesmoke;
+}
+.div_popup{
+                width: 765px;
+                background-color:whitesmoke;
+}
+.update{
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                min-height: 100%;
+                min-width: 100%;
+                background-image: url('../Imagenes/cargando_popup_negro.gif');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-color: #e4e4e6;
+                z-index: 500 !important;
+                opacity: 0.8;
+                overflow: hidden;
+}
+.update_tabcliente{   
+    position: absolute; 
+    top: 314px; 
+    left: 2px; 
+    width: 771px; 
+    height: 275px;  
+    background-image: url('../Imagenes/cargando_popup_negro.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #e4e4e6;
+    z-index: 500 !important;
+    opacity: 0.8;
+    overflow: hidden;
+}
+.dropdown_tab{
+                font-family:Arial;
+                font-size:12px;
+}
+.radiobuton_tab{
+                font-family:Arial;
+                font-size:12px;
+}
+.update_panel{
+             width: 100%;
+			 left: 5px;
+}
+.boton_volver{
+             height: 32px;
+			 width: 35px;
+}

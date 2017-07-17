@@ -1,0 +1,122 @@
+#fondo{
+       background-color:white;    
+}
+#contenedor{
+      width: 990px;
+      border:outset 2px lightgrey;
+      margin: auto;
+      height:590px;
+      position:relative;
+}
+#logo{
+      color: #FFFFFF;
+      width: 210px;     
+      height: 130px;
+      float:left;
+      background-color: #778CB3;
+      position:absolute;
+}
+#logo_imagen{
+       width: 210px;
+       height: 130px;
+}
+#contenido
+{
+      width: 775px;
+      height:589px;
+      background-color:whitesmoke;
+      right:1px;
+      float:right;
+      position:absolute;
+      top: 140px;
+}
+#menulateral{
+      color: black;
+      background-color:lightblue;
+      width: 775px;     
+      height: 130px;
+      right:1px;
+      position:absolute;
+      top:0px;
+}
+#panelmenu
+{
+      height: 300px;
+      width: 210px;
+      border:inset 1px lightgrey;
+      background-color:white;
+}
+#panellogin
+{
+      top:100px;
+      height: 30px;
+      width: 205px;
+      border:inset 2px lightgrey;
+      position:absolute;
+}
+#pie
+{
+      height: 60px;
+      width: 210px;
+      position:absolute;
+	  background-color:whitesmoke;
+      float:left;
+	  bottom:2px;
+}
+  .ItemDIV 
+{
+     font-family:Verdana,Arial;
+     font-size:11px;
+     color:Black;
+     font-weight:normal;
+     white-space:nowrap;
+     padding:2px;
+     padding-left:4px;
+     padding-right:4px;
+     background-color:Transparent;
+     border:none;
+}
+/*Item: DIV (Hovered)*/
+.ItemHoveredDIV 
+{
+     font-family:Arial;
+     font-size:11px;
+     color:white;
+     font-weight:normal;
+     white-space:nowrap;
+     padding:2px;
+     padding-left:4px;
+     padding-right:4px;
+     background-color: #9ea0f5;
+     border:none;
+     cursor:default;
+     cursor:hand;
+     cursor:pointer;
+}
+/*Item: DIV (Selected)*/
+.ItemSelectedDIV 
+{
+     font-family:Verdana,Arial;
+     font-size:11px;
+     font-weight:normal;
+     white-space:nowrap;
+     padding:2px;
+     padding-left:4px;
+     padding-right:4px;
+     background-color:#E0E0E0;
+     border:none;
+     cursor:default;
+     cursor:hand;
+     cursor:pointer;
+}
+/*Separator: TD*/
+.SeparatorTD
+{
+     border-bottom:solid 1px white;
+     border-left:solid 4px white;
+     background-color:#eaeaea;
+     height:1px;
+     padding:0px;
+     width:60px;
+}
+   

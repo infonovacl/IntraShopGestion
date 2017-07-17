@@ -1,0 +1,109 @@
+﻿<%@ Master Language="VB" CodeFile="Maestro.master.vb" Inherits="Maestro" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Sistema Administrativo Web </title>
+    <link href="css/Maestro.css" rel="stylesheet" />
+    <link href="css/EstilosShop.css" rel="stylesheet" />
+<script type="text/javascript">
+function maximize() {
+  window.moveTo(0, 0);
+  window.resizeTo(screen.width, screen.height);
+}
+maximize();
+function validar_rut(source, arguments) {
+    document.getElementById("LBL_LoginError").innerHTML = ""; //limpia label error
+    var rut = arguments.Value; suma = 0; mul = 2; i = 0;
+    for (i = rut.length - 3; i >= 0; i--) {
+        suma = suma + parseInt(rut.charAt(i)) * mul;
+        mul = mul == 7 ? 2 : mul + 1;
+    }
+    var dvr = '' + (11 - suma % 11);
+    if (dvr == '10') dvr = 'K'; else if (dvr == '11') dvr = '0';
+
+    if (rut.charAt(rut.length - 2) != "-" || rut.charAt(rut.length - 1).toUpperCase() != dvr)
+        arguments.IsValid = false;
+    else
+        arguments.IsValid = true;
+}
+</script>
+    <style type="text/css">
+        .auto-style9 {
+            left: 0px;
+            bottom: 2px;
+        }
+        .auto-style3 {
+            width: 99%;
+        }
+        .auto-style16 {
+            width: 52px;
+        }
+        .auto-style17 {
+            width: 80px;
+        }
+        .auto-style19 {
+            left: 0px;
+            top: 0px;
+        }
+        </style>
+    </head>  
+<body>
+    <form id="fondo" runat="server" >
+     <div id="contenedor" runat="server" class="auto-style19">
+         <div id ="logo" runat="server">
+             <asp:ScriptManager ID="ScriptManagerMaestro" runat="server" 
+                 AsyncPostBackTimeout="720" EnableViewState="False" LoadScriptsBeforeUI="False" 
+                 ScriptMode="Release">
+             </asp:ScriptManager>
+                <asp:Image ID="Logo1" runat="server" BorderStyle="Inset" Height="123px" ImageUrl="~/Imagenes/familyshop_logo.jpg" Width="203px" />
+             <br />
+             </div>
+         <div id ="contenido" runat="server">            
+         
+         </div>
+         <div id ="menulateral" runat="server">                                
+                             <asp:Panel ID="Panel_menu" runat="server" BackColor="White" 
+                                 CssClass="panelmenu" Height="372px" ScrollBars="Vertical" 
+                                 ViewStateMode="Disabled" Visible="False">
+                             </asp:Panel>                        
+            <asp:Panel ID="Panel_Login" runat="server" CssClass="panellogin" ViewStateMode="Disabled" Visible="False">
+                <asp:LinkButton ID="LNKB_CerrarSesion" runat="server" CssClass="etiquetas_cerrarsesion">Cerrar Sesión</asp:LinkButton>
+            </asp:Panel>                
+                      </div>
+         <div id ="pie" runat="server" class="auto-style9">                                           
+                                        <table cellspacing="1" class="auto-style3">
+                                            <tr>
+                                                <td class="auto-style16" >
+                                                    <asp:Label ID="Label10" runat="server" CssClass="etiquetas" Text="Usuario "></asp:Label>
+                                                </td>
+                                                <td colspan="3">
+                                                    <asp:Label ID="UsuarioNombre" runat="server" CssClass="etiquetas" ViewStateMode="Enabled"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style16" >
+                                                    <asp:Label ID="Label14" runat="server" CssClass="etiquetas" Text="Cód. Tda."></asp:Label>
+                                                </td>
+                                                <td class="auto-style17">&nbsp;<asp:Label ID="CTienda" runat="server" CssClass="etiquetas" ViewStateMode="Enabled"></asp:Label>
+                                                </td>
+                                                <td >
+                                                    <asp:Label ID="Label13" runat="server" CssClass="etiquetas" Text="Caja"></asp:Label>
+                                                </td>
+                                                <td >
+                                                    <asp:Label ID="Caja" runat="server" CssClass="etiquetas" ViewStateMode="Enabled"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style16" >
+                                                    <asp:Label ID="Label12" runat="server" CssClass="etiquetas" Text="Tienda"></asp:Label>
+                                                </td>
+                                                <td  colspan="3">
+                                                    <asp:Label ID="CajaNombreTienda" runat="server" CssClass="etiquetas" ViewStateMode="Enabled"></asp:Label>
+                                                </td>
+                                            </tr>
+                                        </table>
+           </div>
+      </div>
+</form>
+</body>
+</html>
