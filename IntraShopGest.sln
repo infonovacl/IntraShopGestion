@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IntraShopGest", "IntraShopGest\IntraShopGest.vbproj", "{F9DC7DAC-F375-430C-82BC-5FFE85DFE697}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IntraShopGest", "IntraShopGest\IntraShopGest.vbproj", "{80E6B56F-382B-4B3B-BD36-C12B10CD39C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F9DC7DAC-F375-430C-82BC-5FFE85DFE697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9DC7DAC-F375-430C-82BC-5FFE85DFE697}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9DC7DAC-F375-430C-82BC-5FFE85DFE697}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9DC7DAC-F375-430C-82BC-5FFE85DFE697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E6B56F-382B-4B3B-BD36-C12B10CD39C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E6B56F-382B-4B3B-BD36-C12B10CD39C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E6B56F-382B-4B3B-BD36-C12B10CD39C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E6B56F-382B-4B3B-BD36-C12B10CD39C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
