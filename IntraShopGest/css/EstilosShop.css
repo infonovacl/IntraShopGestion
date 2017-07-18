@@ -12,6 +12,13 @@
                 color:black;
                 text-align: right;
 }
+.etiquetas_login_grande{ 
+                font-family:Arial;
+                font-size:18px;
+                font-weight:bold;
+                color:black;
+                text-align: right;
+}
 .etiquetas_titulo{ 
                 font-family:Arial;
                 font-size:14px;
@@ -24,6 +31,12 @@
                 font-family:Arial;
                 font-size:12px;
                 font-weight:bold;
+                color:black;
+                text-align: left;
+}
+.fuente_menucolgante{ 
+                font-family:Arial;
+                font-size:14px;
                 color:black;
                 text-align: left;
 }
