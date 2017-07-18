@@ -141,7 +141,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\Class1.vb" />
+    <Compile Include="App_Code\Class1.vb" />
     <Compile Include="Bienvenida.aspx.designer.vb">
       <DependentUpon>Bienvenida.aspx</DependentUpon>
     </Compile>

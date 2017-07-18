@@ -1,8 +1,8 @@
-﻿Public Class Bienvenida
+﻿Imports System.Data
+Imports System.Configuration
+Imports System.Web.Security
+Partial Class Bienvenida
     Inherits System.Web.UI.Page
-    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Page.Form.DefaultFocus = Login1.FindControl("Username").ClientID
-    End Sub
     Protected Sub Login1_Authenticate(sender As Object, e As AuthenticateEventArgs) Handles Login1.Authenticate
         Try
             Dim partes() As String
@@ -10,10 +10,10 @@
             Dim DATADSLogin As New Data.DataSet
             DATADSLogin.Clear()
             Dim STRLogin As String = "execute procedure procw_login  ('" & CType(partes(0), Integer) & "','" & partes(1) & "','" & Trim(Me.Login1.Password) & "')"
-            Dim DATALogin As System.Data.Odbc.OdbcDataAdapter = New System.Data.Odbc.OdbcDataAdapter(STRLogin, )
+            Dim DATALogin As System.Data.Odbc.OdbcDataAdapter = New System.Data.Odbc.OdbcDataAdapter(STRLogin, Globales.conn)
             DATALogin.Fill(DATADSLogin, "PRUEBA")
             If DATADSLogin.Tables(0).Rows(0)(0) = 1 Then
-                Me.Login1.FailureText = DATADSLogin.Tables(0).Rows(0)(1) 'mensaje de error                       
+                Login1.FailureText = DATADSLogin.Tables(0).Rows(0)(1) 'mensaje de error                       
                 e.Authenticated = False
             Else
                 Dim nombre, apellido, nombretienda As String
@@ -57,7 +57,11 @@
             e.Authenticated = False
         End Try
     End Sub
-    Protected Sub Login1_LoggedIn(sender As Object, e As EventArgs) Handles Login1.LoggedIn
+    Protected Sub Login1_LoggedIn(ByVal sender As Object, ByVal e As System.EventArgs) Handles Login1.LoggedIn
         Response.Redirect("Cliente.aspx")
+    End Sub
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'Me.Focus()
+        Page.Form.DefaultFocus = Login1.FindControl("Username").ClientID
     End Sub
 End Class

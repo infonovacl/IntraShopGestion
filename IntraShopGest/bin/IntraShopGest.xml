@@ -42,6 +42,14 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="P:IntraShopGest.Bienvenida.Master">
+<summary>
+Propiedad Master.
+</summary>
+<remarks>
+Propiedad generada automáticamente.
+</remarks>
+</member>
 <member name="F:IntraShopGest.Maestro._form1">
 <summary>
 control form1.

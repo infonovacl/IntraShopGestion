@@ -24,7 +24,7 @@
 {
       width: 988px;
       height:460px;
-      background-color:whitesmoke;
+      background-color: lightgoldenrodyellow;
       right:1px;
       float:right;
       position:absolute;
@@ -32,7 +32,7 @@
 }
 #menulateral{
       color: black;
-      background-color:lightblue;
+      background-color:  wheat;
       width: 775px;     
       height: 130px;
       right:1px;
