@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Maestro.master" AutoEventWireup="false" CodeFile="Bienvenida.aspx.vb" Inherits="Login" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Maestro.master" AutoEventWireup="false" CodeFile="Bienvenida.aspx.vb" Inherits="_Default" %>
 <%@ MasterType virtualpath="~/Maestro.master" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <link href="css/EstilosShop.css" rel="stylesheet" />
@@ -22,7 +22,7 @@ function validar_rut(source, arguments) {
             <h1>
                 <asp:Label ID="Label1" runat="server" CssClass="auto-style1" Text="Bienvenidos a Sistema" TabIndex="92"></asp:Label>
                 <br />
-                <asp:Label ID="Label2" runat="server" CssClass="auto-style1" Text="Administrativo Web Informes" TabIndex="91"></asp:Label>
+                <asp:Label ID="Label2" runat="server" CssClass="auto-style1" Text="Administrativo Web" TabIndex="91"></asp:Label>
             </h1>
           <br />
            <br />
@@ -37,18 +37,18 @@ function validar_rut(source, arguments) {
 <br />
 <br />
 <br />
-            <asp:Login ID="Login1" runat="server" BackColor="#FFFBD6" 
-        BorderColor="#FFDFAD" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" 
-        DisplayRememberMe="False" Font-Names="Verdana" Font-Size="0.8em" 
+            <asp:Login ID="Login1" runat="server" BackColor="#F7F6F3" 
+        BorderColor="#E6E2D8" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" 
+        DisplayRememberMe="False" Font-Names="Arial" Font-Size="11pt" 
         ForeColor="#333333" Height="187px" style="font-size: 12pt; text-align: center;" 
-        Width="760px" TabIndex="90" DestinationPageUrl="~/Cliente.aspx" TextLayout="TextOnTop">
+        Width="760px" TabIndex="90" DestinationPageUrl="~/Cliente.aspx">
                 <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
                 <LabelStyle CssClass="etiquetas" />
                 <LayoutTemplate>
                     <table cellpadding="4" cellspacing="0" style="border-collapse:collapse;">
                         <tr>
                             <td>
-                                <table cellpadding="0" style="height:187px;width:760px;" align="center">
+                                <table cellpadding="0" style="height:187px;width:760px;">
                                     <tr>
                                         <td align="center" colspan="3" style="color:White;background-color:#5D7B9D;font-size:0.9em;font-weight:bold;">Iniciar Sesión</td>
                                     </tr>
@@ -102,9 +102,9 @@ function validar_rut(source, arguments) {
                         </tr>
                     </table>
                 </LayoutTemplate>
-                <LoginButtonStyle BackColor="White" BorderColor="#CC9966" BorderStyle="Solid" BorderWidth="1px" CssClass="etiquetas" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" Height="30px" />
-                <TextBoxStyle CssClass="etiquetas" Font-Size="0.8em" />
-                <TitleTextStyle BackColor="#990000" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
+                <LoginButtonStyle BackColor="#FFFBFF" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" CssClass="etiquetas" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284775" Height="30px" />
+                <TextBoxStyle CssClass="etiquetas" Font-Size="11pt" />
+                <TitleTextStyle BackColor="#5D7B9D" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
             </asp:Login>
            <br />
 <br />

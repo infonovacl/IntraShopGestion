@@ -1,7 +1,7 @@
 ﻿Imports System.Data
 Imports System.Configuration
 Imports System.Web.Security
-Partial Class Login
+Partial Class _Default
     Inherits System.Web.UI.Page
     Protected Sub Login1_Authenticate(sender As Object, e As AuthenticateEventArgs) Handles Login1.Authenticate
         Try
