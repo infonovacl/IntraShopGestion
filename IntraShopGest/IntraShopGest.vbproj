@@ -142,9 +142,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Code\Class1.vb" />
+    <Compile Include="Bienvenida.aspx.designer.vb">
+      <DependentUpon>Bienvenida.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Bienvenida.aspx.vb">
       <DependentUpon>Bienvenida.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Maestro.Master.designer.vb">
       <DependentUpon>Maestro.Master</DependentUpon>

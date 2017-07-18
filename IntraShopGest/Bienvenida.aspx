@@ -1,7 +1,6 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Maestro.master" AutoEventWireup="false" CodeFile="Bienvenida.aspx.vb" Inherits="_Default" %>
-<%@ MasterType virtualpath="~/Maestro.master" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <link href="css/EstilosShop.css" rel="stylesheet" />
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Maestro.Master" CodeBehind="Bienvenida.aspx.vb" Inherits="IntraShopGest.Bienvenida" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<link href="css/EstilosShop.css" rel="stylesheet" />
     <script type="text/javascript">
 function validar_rut(source, arguments) {
     var rut = arguments.Value; suma = 0; mul = 2; i = 0;
