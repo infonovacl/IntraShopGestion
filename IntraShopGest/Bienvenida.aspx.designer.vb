@@ -48,4 +48,16 @@ Partial Public Class Bienvenida
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Login1 As Global.System.Web.UI.WebControls.Login
+    
+    '''<summary>
+    '''Propiedad Master.
+    '''</summary>
+    '''<remarks>
+    '''Propiedad generada automáticamente.
+    '''</remarks>
+    Public Shadows ReadOnly Property Master() As IntraShopGest.Maestro
+        Get
+            Return CType(MyBase.Master,IntraShopGest.Maestro)
+        End Get
+    End Property
 End Class

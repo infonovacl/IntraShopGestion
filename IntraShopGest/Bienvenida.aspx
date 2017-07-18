@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Maestro.Master" CodeBehind="Bienvenida.aspx.vb" Inherits="IntraShopGest.Bienvenida" %>
+<%@ MasterType virtualpath="~/Maestro.master" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <link href="css/EstilosShop.css" rel="stylesheet" />
     <script type="text/javascript">
