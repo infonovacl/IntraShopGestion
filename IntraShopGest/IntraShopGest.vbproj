@@ -95,7 +95,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="InformesAvance\" />
     <Folder Include="InformesVentas\" />
   </ItemGroup>
   <ItemGroup>
@@ -123,8 +122,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bienvenida.aspx" />
+    <Content Include="Blank.aspx" />
     <Content Include="css\EstilosShop.css" />
     <Content Include="css\Maestro.css" />
+    <Content Include="Imagenes\Calendar_HD.png" />
     <Content Include="Imagenes\cancela.png" />
     <Content Include="Imagenes\cargando.gif" />
     <Content Include="Imagenes\cargando_popup.gif" />
@@ -138,6 +139,7 @@
     <Content Include="Imagenes\mano_grande.png" />
     <Content Include="Imagenes\mano_volver.jpg" />
     <Content Include="Imagenes\ok.png" />
+    <Content Include="InformesAvance\Avance_Comparativo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +149,20 @@
     </Compile>
     <Compile Include="Bienvenida.aspx.vb">
       <DependentUpon>Bienvenida.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Blank.aspx.designer.vb">
+      <DependentUpon>Blank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blank.aspx.vb">
+      <DependentUpon>Blank.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InformesAvance\Avance_Comparativo.aspx.designer.vb">
+      <DependentUpon>Avance_Comparativo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InformesAvance\Avance_Comparativo.aspx.vb">
+      <DependentUpon>Avance_Comparativo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Maestro.Master.designer.vb">

@@ -65,7 +65,7 @@ function validar_rut(source, arguments) {
                         </tr>
                         <tr>
                             <td colspan="3" style="text-align: center">
-                                <asp:Button ID="LoginButton" runat="server" BackColor="#FFFBFF" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" CommandName="Login" CssClass="etiquetasimportante" Font-Names="Arial" Font-Size="11pt" ForeColor="#284775" Height="30px" TabIndex="3" Text="Iniciar Sesión" ValidationGroup="Login1" />
+                                <asp:Button ID="LoginButton" runat="server" BackColor="#FFFBFF" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" CommandName="Login" CssClass="etiquetasimportante" Font-Names="Arial" Font-Size="11pt" ForeColor="#284775" Height="30px" TabIndex="3" Text="Iniciar Sesión" ValidationGroup="Login1" OnClick="LoginButton_Click" />
                             </td>
                         </tr>
                     </table>

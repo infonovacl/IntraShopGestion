@@ -50,6 +50,15 @@ Propiedad Master.
 Propiedad generada automáticamente.
 </remarks>
 </member>
+<member name="F:IntraShopGest.Avance_Comparativo._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:IntraShopGest.Maestro._form1">
 <summary>
 control form1.

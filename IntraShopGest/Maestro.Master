@@ -77,11 +77,7 @@ function validar_rut(source, arguments) {
                      <DynamicSelectedStyle BackColor="#FFCC66" />
                      <Items>
                          <asp:MenuItem Text="Avance" Value="Nuevo elemento">
-                             <asp:MenuItem Text="Nuevo elemento" Value="Nuevo elemento">
-                                 <asp:MenuItem Text="Nuevo elemento" Value="Nuevo elemento">
-                                     <asp:MenuItem Text="Nuevo elemento" Value="Nuevo elemento"></asp:MenuItem>
-                                 </asp:MenuItem>
-                             </asp:MenuItem>
+                             <asp:MenuItem NavigateUrl="~/InformesAvance/Avance_Comparativo.aspx" Text="Comparativo Avance" Value="Nuevo elemento"></asp:MenuItem>
                          </asp:MenuItem>
                          <asp:MenuItem Text="Ventas" Value="Nuevo elemento">
                              <asp:MenuItem Text="Nuevo elemento" Value="Nuevo elemento">

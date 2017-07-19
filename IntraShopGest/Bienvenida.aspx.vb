@@ -58,10 +58,12 @@ Partial Class Bienvenida
         End Try
     End Sub
     Protected Sub Login1_LoggedIn(ByVal sender As Object, ByVal e As System.EventArgs) Handles Login1.LoggedIn
-        Response.Redirect("Cliente.aspx")
+        Response.Redirect("Blank.aspx")
     End Sub
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'Me.Focus()
         Page.Form.DefaultFocus = Login1.FindControl("Username").ClientID
+    End Sub
+    Protected Sub LoginButton_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class
