@@ -11,30 +11,30 @@
 #logo{
       color: #FFFFFF;
       width: 210px;     
-      height: 130px;
+      height: 70px;
       float:left;
-      background-color: #778CB3;
+      background-color:  white;
       position:absolute;
 }
 #logo_imagen{
        width: 210px;
-       height: 130px;
+       height: 70px;
 }
 #contenido
 {
-      width: 990px;
-      height:460px;
+      width: 986px;
+      height:493px;
       background-color:whitesmoke;
-      right:0px;
+      border:outset 2px lightgrey;
       float:right;
       position:absolute;
-      top: 130px;
+      top: 93px;
 }
 #encabezado{
       color: black;
       background-color: lightcyan;
       width: 569px;     
-      height: 112px;
+      height: 75px;
       right:211px;
       position:absolute;
       top:0px;
@@ -42,11 +42,12 @@
 #menuprincipal{
       color: black;
       background-color: lightcyan;
-      width: 569px;     
+      width: 990px;     
       height: 18px;
-      right:0px;
-      position:absolute;
-      top:112px;
+      left:0px;
+      position: absolute;
+      float:left;
+      top:75px;
 }
 #panelmenu
 {
@@ -63,12 +64,12 @@
       border:inset 2px lightgrey;
       position:absolute;
 }
-#pie
+#datausuario
 {
-      height: 130px;
+      height: 75px;
       width: 212px;
       position:absolute;
-	  background-color:lightblue;
+	  background-color: lightyellow;
       right:0px;
 }
 #login
@@ -123,7 +124,6 @@
      background-color:#E0E0E0;
      border:none;
      cursor:default;
-     cursor:hand;
      cursor:pointer;
 }
 /*Separator: TD*/
@@ -133,7 +133,6 @@
      border-left:solid 4px white;
      background-color:#eaeaea;
      height:1px;
-     padding:0px;
      width:60px;
 }
    

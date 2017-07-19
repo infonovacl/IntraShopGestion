@@ -1,6 +1,7 @@
 C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.vbprojResolveAssemblyReference.cache
 C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.Resources.resources
 C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.vbproj.GenerateResource.Cache
+C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\ApplicationInsights.config
 C:\Github\IntraShopGestion\IntraShopGest\bin\roslyn\csc.exe
 C:\Github\IntraShopGestion\IntraShopGest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -18,6 +19,7 @@ C:\Github\IntraShopGestion\IntraShopGest\bin\IntraShopGest.dll.config
 C:\Github\IntraShopGestion\IntraShopGest\bin\IntraShopGest.dll
 C:\Github\IntraShopGestion\IntraShopGest\bin\IntraShopGest.pdb
 C:\Github\IntraShopGestion\IntraShopGest\bin\IntraShopGest.xml
+C:\Github\IntraShopGestion\IntraShopGest\bin\AjaxControlToolkit.dll
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.AI.DependencyCollector.dll
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -33,5 +35,4 @@ C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.AI.WindowsServer.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.ApplicationInsights.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.dll
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.xml
 C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.pdb

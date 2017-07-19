@@ -35,7 +35,7 @@
         </td>
         <td style="width: 256px; height: 23px">
             
-            <div id="CalendarIni" style="position: absolute; left: 359px; top: 49px; width: 2px; height: 4px;">
+            <div id="CalendarIni" class="auto-style4">
                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                     <ContentTemplate>
                         <asp:Calendar ID="CalendarInicial" runat="server" BackColor="#FFFFCC" BorderColor="#FFCC66" BorderWidth="1px" DayNameFormat="Shortest" FirstDayOfWeek="Monday" Font-Names="Verdana" Font-Size="8pt" ForeColor="#663399" Height="90px" ShowGridLines="True" Visible="False" Width="205px">
@@ -58,7 +58,7 @@
             
         </td>
         <td style="height: 23px">
-            <div id="CalendarFin" style="position: absolute; left: 360px; top: 72px; width: 1px; height: 5px;">
+            <div id="CalendarFin" class="auto-style5">
                 <asp:UpdatePanel ID="UpdatePanel6" runat="server">
                     <ContentTemplate>
                         <asp:Calendar ID="CalendarFinal" runat="server" BackColor="#FFFFCC" BorderColor="#FFCC66" BorderWidth="1px" DayNameFormat="Shortest" FirstDayOfWeek="Monday" Font-Names="Verdana" Font-Size="8pt" ForeColor="#663399" Height="90px" ShowGridLines="True" Visible="False" Width="205px">
@@ -102,3 +102,22 @@
 </table>
 
 </asp:Content>
+<asp:Content ID="Content2" runat="server" contentplaceholderid="head">
+    <style type="text/css">
+    .auto-style4 {
+        position: absolute;
+        left: 359px;
+        top: 45px;
+        width: 2px;
+        height: 4px;
+    }
+    .auto-style5 {
+        position: absolute;
+        left: 360px;
+        top: 69px;
+        width: 1px;
+        height: 5px;
+    }
+</style>
+</asp:Content>
+
