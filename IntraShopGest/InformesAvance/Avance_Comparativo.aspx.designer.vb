@@ -41,13 +41,13 @@ Partial Public Class Avance_Comparativo
     Protected WithEvents TXT_FechaInicial As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Image1.
+    '''Control TXT_FechaInicial_CalendarExtender.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents TXT_FechaInicial_CalendarExtender As Global.AjaxControlToolkit.CalendarExtender
     
     '''<summary>
     '''Control Label17.
