@@ -144,6 +144,7 @@
     <Content Include="Imagenes\mano_volver.jpg" />
     <Content Include="Imagenes\ok.png" />
     <Content Include="InformesAvance\Avance_Comparativo.aspx" />
+    <Content Include="jquery\jquery-1.7.2.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

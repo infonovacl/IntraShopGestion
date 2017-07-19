@@ -2,6 +2,13 @@
 Imports System.Configuration
 Imports System.Data.SqlClient
 Imports System.Web.Security
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Web
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
+Imports Microsoft.VisualBasic
 Partial Class Maestro
     Inherits System.Web.UI.MasterPage
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -21,11 +28,4 @@ Partial Class Maestro
             ' Response.Write("<script>window.alert('POST BACK TRU');</script>")
         End If
     End Sub
-    '  Protected Sub LNKB_CerrarSesion_Click(ByVal sender As Object, ByVal e As EventArgs) Handles LNKB_CerrarSesion.Click
-
-    '  Session.Clear()
-    '  Session.Abandon()
-    '  FormsAuthentication.SignOut()
-    '  FormsAuthentication.RedirectToLoginPage()
-    'End Sub
 End Class

@@ -52,11 +52,155 @@ Propiedad generada automáticamente.
 </member>
 <member name="F:IntraShopGest.Avance_Comparativo._Label1">
 <summary>
-Control Label1.
+Label1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._Label16">
+<summary>
+Label16 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel3">
+<summary>
+UpdatePanel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._TXT_FechaInicial">
+<summary>
+TXT_FechaInicial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._CalendarInicial">
+<summary>
+CalendarInicial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel2">
+<summary>
+UpdatePanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._BTN_CalendarioInicial">
+<summary>
+BTN_CalendarioInicial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel6">
+<summary>
+UpdatePanel6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._CalendarFinal">
+<summary>
+CalendarFinal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._BTN_Buscar">
+<summary>
+BTN_Buscar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._Label17">
+<summary>
+Label17 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel5">
+<summary>
+UpdatePanel5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._TXT_FechaFinal">
+<summary>
+TXT_FechaFinal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel4">
+<summary>
+UpdatePanel4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._BTN_CalendarioFinal">
+<summary>
+BTN_CalendarioFinal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._BTN_Limpiar">
+<summary>
+BTN_Limpiar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:IntraShopGest.Maestro._form1">

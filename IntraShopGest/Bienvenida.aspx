@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <link href="css/EstilosShop.css" rel="stylesheet" />
     <link href="css/Maestro.css" rel="stylesheet" />
+    <script src="jquery/jquery-1.7.2.min.js"></script>
     <script type="text/javascript">
 function validar_rut(source, arguments) {
     var rut = arguments.Value; suma = 0; mul = 2; i = 0;
