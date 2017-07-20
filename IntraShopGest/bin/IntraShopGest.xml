@@ -338,9 +338,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Maestro._LBL_CTienda">
+<member name="F:IntraShopGest.Maestro._CTienda">
 <summary>
-Control LBL_CTienda.
+Control CTienda.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -356,9 +356,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Maestro._LBL_Caja">
+<member name="F:IntraShopGest.Maestro._Caja">
 <summary>
-Control LBL_Caja.
+Control Caja.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -383,27 +383,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Maestro._Label22">
+<member name="F:IntraShopGest.Maestro._RutUsu">
 <summary>
-Control Label22.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Maestro._LBL_Perfil">
-<summary>
-Control LBL_Perfil.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Maestro._LBL_RUsu">
-<summary>
-Control LBL_RUsu.
+Control RutUsu.
 </summary>
 <remarks>
 Campo generado automáticamente.

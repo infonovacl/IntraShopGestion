@@ -149,13 +149,13 @@ Partial Public Class Maestro
     Protected WithEvents Label19 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control LBL_CTienda.
+    '''Control CTienda.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents LBL_CTienda As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents CTienda As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control Label21.
@@ -167,13 +167,13 @@ Partial Public Class Maestro
     Protected WithEvents Label21 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control LBL_Caja.
+    '''Control Caja.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents LBL_Caja As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Caja As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control Label20.
@@ -194,31 +194,13 @@ Partial Public Class Maestro
     Protected WithEvents LBL_NTienda As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label22.
+    '''Control RutUsu.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label22 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''Control LBL_Perfil.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LBL_Perfil As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''Control LBL_RUsu.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LBL_RUsu As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents RutUsu As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control UpdatePanel2.

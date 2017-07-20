@@ -10,10 +10,10 @@
                 If Session("usuario") Is System.DBNull.Value Then
                 Else
                     Me.LBL_Usuario.Text = Session("nombreusuario")
-                    Me.LBL_CTienda.Text = Session("codtienda")
-                    Me.LBL_Caja.Text = Session("caja")
+                    Me.CTienda.Text = Session("codtienda")
+                    Me.Caja.Text = Session("caja")
                     Me.LBL_NTienda.Text = Session("nombretienda")
-                    Me.LBL_RUsu.Text = Session("usuario")
+                    Me.RutUsu.Text = Session("usuario")
                 End If
             Else
             End If

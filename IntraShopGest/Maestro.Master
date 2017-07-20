@@ -11,18 +11,11 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-        .auto-style1 {
-            width: 40px;
-        }
-        .auto-style2 {
-            width: 211px;
-            height: 69px;
-        }
         .auto-style3 {
             text-align: center;
         }
-        .auto-style4 {
-            width: 80px;
+        .auto-style5 {
+            width: 100%;
         }
     </style>
 </head>
@@ -50,48 +43,48 @@
                 <br />
                       </div>
          <div id ="datausuario" runat="server">                                           
-             <table class="auto-style2">
+             <table>
                  <tr>
-                     <td class="auto-style22">
+                     <td>
                          <asp:Label ID="Label18" runat="server" Text="Usuario" CssClass="etiquetas"></asp:Label>
                      </td>
-                     <td colspan="3">
+                     <td>
                          <asp:Label ID="LBL_Usuario" runat="server" CssClass="etiquetas"></asp:Label>
                      </td>
+                     <td>&nbsp;</td>
+                     <td>&nbsp;</td>
                  </tr>
                  <tr>
-                     <td class="auto-style22">
+                     <td>
                          <asp:Label ID="Label19" runat="server" Text="Cód.Tda." CssClass="etiquetas"></asp:Label>
                      </td>
-                     <td class="auto-style4">
-                         <asp:Label ID="LBL_CTienda" runat="server" CssClass="etiquetas"></asp:Label>
+                     <td>
+                         <asp:Label ID="CTienda" runat="server" CssClass="etiquetas"></asp:Label>
                      </td>
                      <td>
                          <asp:Label ID="Label21" runat="server" Text="Caja" CssClass="etiquetas"></asp:Label>
                      </td>
-                     <td class="auto-style1">
-                         <asp:Label ID="LBL_Caja" runat="server" CssClass="etiquetas"></asp:Label>
+                     <td>
+                         <asp:Label ID="Caja" runat="server" CssClass="etiquetas"></asp:Label>
                      </td>
                  </tr>
                  <tr>
-                     <td class="auto-style22">
+                     <td>
                          <asp:Label ID="Label20" runat="server" Text="Tienda" CssClass="etiquetas"></asp:Label>
                      </td>
-                     <td colspan="3">
+                     <td>
                          <asp:Label ID="LBL_NTienda" runat="server" CssClass="etiquetas"></asp:Label>
                      </td>
+                     <td>&nbsp;</td>
+                     <td>&nbsp;</td>
                  </tr>
                  <tr>
-                     <td class="auto-style22">
-                         <asp:Label ID="Label22" runat="server" Text="Perfil" CssClass="etiquetas"></asp:Label>
-                     </td>
-                     <td class="auto-style4">
-                         <asp:Label ID="LBL_Perfil" runat="server" CssClass="etiquetas"></asp:Label>
+                     <td>
+                         <asp:Label ID="RutUsu" runat="server" CssClass="etiquetas"></asp:Label>
                      </td>
                      <td>&nbsp;</td>
-                     <td class="auto-style1">
-                         <asp:Label ID="LBL_RUsu" runat="server" CssClass="etiquetas"></asp:Label>
-                     </td>
+                     <td>&nbsp;</td>
+                     <td>&nbsp;</td>
                  </tr>
              </table>
            </div>
