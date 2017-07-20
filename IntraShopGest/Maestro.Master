@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Maestro.master.vb" Inherits="IntraShopGest.Maestro" %>
+﻿<%@ Master Language="VB" EnableviewState="true" AutoEventWireup="false" CodeBehind="Maestro.master.vb" Inherits="IntraShopGest.Maestro" %>
 
 <!DOCTYPE html>
 
@@ -34,7 +34,7 @@
                  AsyncPostBackTimeout="720" EnableViewState="False" LoadScriptsBeforeUI="False" 
                  ScriptMode="Release">
              </asp:ScriptManager>
-                <asp:Image ID="Logo1" runat="server" BorderStyle="None" Height="70px" ImageUrl="~/Imagenes/familyshop_logo.jpg" Width="170px" />
+                <asp:Image ID="Logo1" runat="server" BorderStyle="None" Height="70px" ImageUrl="~/Imagenes/familyshop_logo.jpg" Width="146px" />
              <br />
              </div>
          <div id ="contenido" runat="server">                     
@@ -98,7 +98,7 @@
          <div id="menuprincipal">
                  <asp:UpdatePanel ID="UpdatePanel2" runat="server">
                      <ContentTemplate>
-                         <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" CssClass="fuente_menucolgante" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px">
+                         <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" CssClass="fuente_menucolgante" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px" Visible="False" Width="990px">
                              <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
                              <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                              <DynamicMenuStyle BackColor="#FFFBD6" />
