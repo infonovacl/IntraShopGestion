@@ -23,6 +23,15 @@ Partial Public Class Avance_Comparativo
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
+    '''Control LBL_USUARIO.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents LBL_USUARIO As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
     '''Control Label16.
     '''</summary>
     '''<remarks>

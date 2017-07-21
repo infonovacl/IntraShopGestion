@@ -59,6 +59,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:IntraShopGest.Avance_Comparativo._LBL_USUARIO">
+<summary>
+Control LBL_USUARIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:IntraShopGest.Avance_Comparativo._Label16">
 <summary>
 Control Label16.

@@ -7,6 +7,55 @@
     <link href="css/Maestro.css" rel="stylesheet" />
     <link href="css/EstilosShop.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script>
+var all;
+var month;
+var period;
+var day;
+function time(){
+var currentDate=new Date()
+
+hour=currentDate.getHours()
+min=currentDate.getMinutes()
+sec=currentDate.getSeconds()
+date=currentDate.getDate()
+switch(currentDate.getMonth()){
+        case 0:month="Enero";break;
+        case 1:month="Febrero";break;
+        case 2:month="Marzo";break;
+        case 3:month="Abril";break;
+        case 4:month="Mayo";break;
+        case 5:month="Junio";break;
+        case 6:month="Julio";break;
+        case 7:month="Agosto";break;
+        case 8:month="Septiembre";break;
+        case 9:month="Octubre";break;
+        case 10:month="Noviembre";break;
+        case 11:month="Diciembre";break;
+}
+
+switch(currentDate.getDay()){
+        case 0:day="Domingo";break;
+        case 1:day="Lunes";break;
+        case 2:day="Martes";break;
+        case 3:day="Miercoles";break;
+        case 4:day="Jueves";break;
+        case 5:day="Viernes";break;
+        case 6:day="Sabado";break;
+}
+if(sec<10){sec="0"+sec}
+if(min<10){min="0"+min}
+
+if(hour>12){hour-=12;period=" pm"} else {period=" am"}
+if(currentDate.getHours()==12){period=" pm"}
+if(currentDate.getHours()==24){period=" am"}
+
+var all="Hoy es: "+day+", "+date+" de "+month+". La hora es: "+hour+":"+min+":"+sec+period
+window.status=all
+window.setTimeout("time()",300)
+}
+time()
+</script> 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -43,16 +92,14 @@
                 <br />
                       </div>
          <div id ="datausuario" runat="server">                                           
-             <table>
+             <table style="width: 210px; height: 75px">
                  <tr>
                      <td>
                          <asp:Label ID="Label18" runat="server" Text="Usuario" CssClass="etiquetas"></asp:Label>
                      </td>
-                     <td>
+                     <td colspan="3">
                          <asp:Label ID="LBL_Usuario" runat="server" CssClass="etiquetas"></asp:Label>
                      </td>
-                     <td>&nbsp;</td>
-                     <td>&nbsp;</td>
                  </tr>
                  <tr>
                      <td>
@@ -72,21 +119,12 @@
                      <td>
                          <asp:Label ID="Label20" runat="server" Text="Tienda" CssClass="etiquetas"></asp:Label>
                      </td>
-                     <td>
+                     <td colspan="3">
                          <asp:Label ID="LBL_NTienda" runat="server" CssClass="etiquetas"></asp:Label>
-                     </td>
-                     <td>&nbsp;</td>
-                     <td>&nbsp;</td>
-                 </tr>
-                 <tr>
-                     <td>
                          <asp:Label ID="RutUsu" runat="server" CssClass="etiquetas"></asp:Label>
                      </td>
-                     <td>&nbsp;</td>
-                     <td>&nbsp;</td>
-                     <td>&nbsp;</td>
                  </tr>
-             </table>
+                 </table>
            </div>
          <div id="menuprincipal">
                  <asp:UpdatePanel ID="UpdatePanel2" runat="server">

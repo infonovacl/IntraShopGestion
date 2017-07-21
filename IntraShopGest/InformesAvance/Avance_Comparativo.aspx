@@ -13,13 +13,15 @@
         <td style="height: 25px">&nbsp;</td>
     </tr>
     <tr>
-        <td class="auto-style17" style="width: 78px; height: 3px;"></td>
-        <td class="auto-style20" style="width: 121px; height: 3px;"></td>
-        <td class="auto-style20" style="width: 102px; height: 3px;">
+        <td class="auto-style7"></td>
+        <td class="auto-style8"></td>
+        <td class="auto-style9">
                 </td>
-        <td class="auto-style20" style="width: 256px; height: 3px;">
+        <td class="auto-style10">
                 </td>
-        <td style="height: 3px"></td>
+        <td class="auto-style11">
+            <asp:Label ID="LBL_USUARIO" runat="server" Text="Label"></asp:Label>
+        </td>
     </tr>
     <tr>
         <td class="auto-style17" style="height: 23px; width: 78px"></td>
@@ -58,7 +60,7 @@
             
         </td>
         <td style="height: 23px">
-            <div id="CalendarFin" class="auto-style5">
+            <div id="CalendarFin" class="auto-style6">
                 <asp:UpdatePanel ID="UpdatePanel6" runat="server">
                     <ContentTemplate>
                         <asp:Calendar ID="CalendarFinal" runat="server" BackColor="#FFFFCC" BorderColor="#FFCC66" BorderWidth="1px" DayNameFormat="Shortest" FirstDayOfWeek="Monday" Font-Names="Verdana" Font-Size="8pt" ForeColor="#663399" Height="90px" ShowGridLines="True" Visible="False" Width="205px">
@@ -111,13 +113,32 @@
         width: 2px;
         height: 4px;
     }
-    .auto-style5 {
+    .auto-style6 {
         position: absolute;
-        left: 360px;
+        left: 358px;
         top: 69px;
-        width: 1px;
+        width: 1%;
         height: 5px;
     }
-</style>
+        .auto-style7 {
+            width: 78px;
+            height: 3px;
+        }
+        .auto-style8 {
+            width: 121px;
+            height: 3px;
+        }
+        .auto-style9 {
+            width: 102px;
+            height: 3px;
+        }
+        .auto-style10 {
+            width: 256px;
+            height: 3px;
+        }
+        .auto-style11 {
+            height: 3px;
+        }
+    </style>
 </asp:Content>
 
