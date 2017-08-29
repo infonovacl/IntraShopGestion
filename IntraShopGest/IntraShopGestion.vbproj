@@ -126,7 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bienvenida.aspx" />
-    <Content Include="Blank.aspx" />
+    <Content Include="Entrada.aspx" />
     <Content Include="css\EstilosShop.css" />
     <Content Include="css\Maestro.css" />
     <Content Include="Imagenes\Calendar_HD.png" />
@@ -157,12 +157,12 @@
       <DependentUpon>Bienvenida.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Blank.aspx.designer.vb">
-      <DependentUpon>Blank.aspx</DependentUpon>
+    <Compile Include="Entrada.aspx.designer.vb">
+      <DependentUpon>Entrada.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Blank.aspx.vb">
-      <DependentUpon>Blank.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+    <Compile Include="Entrada.aspx.vb">
+      <DependentUpon>Entrada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="InformesAvance\Avance_Comparativo.aspx.designer.vb">
       <DependentUpon>Avance_Comparativo.aspx</DependentUpon>

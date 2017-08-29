@@ -134,31 +134,6 @@ time()
                              <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                              <DynamicMenuStyle BackColor="#FFFBD6" />
                              <DynamicSelectedStyle BackColor="#FFCC66" />
-                             <Items>
-                                 <asp:MenuItem Text="Avance" Value="Nuevo elemento">
-                                     <asp:MenuItem NavigateUrl="~/InformesAvance/Avance_Comparativo.aspx" Text="Comparativo Avance" Value="Nuevo elemento"></asp:MenuItem>
-                                 </asp:MenuItem>
-                                 <asp:MenuItem Text="Ventas" Value="Nuevo elemento">
-                                     <asp:MenuItem Text="Nuevo elemento" Value="Nuevo elemento">
-                                         <asp:MenuItem Text="Nuevo elemento" Value="Nuevo elemento"></asp:MenuItem>
-                                     </asp:MenuItem>
-                                 </asp:MenuItem>
-                                 <asp:MenuItem Text="Neg. Migrados" Value="Nuevo elemento">
-                                     <asp:MenuItem Text="Nuevo elemento" Value="Nuevo elemento"></asp:MenuItem>
-                                 </asp:MenuItem>
-                                 <asp:MenuItem Text="Repactaciones" Value="Repactaciones"></asp:MenuItem>
-                                 <asp:MenuItem Text="Pago Mínimo" Value="Pago Mínimo"></asp:MenuItem>
-                                 <asp:MenuItem Text="Pagos" Value="Pagos"></asp:MenuItem>
-                                 <asp:MenuItem Text="Descuentos" Value="Descuentos"></asp:MenuItem>
-                                 <asp:MenuItem Text="Anulaciones" Value="Anulaciones"></asp:MenuItem>
-                                 <asp:MenuItem Text="Deuda" Value="Deuda"></asp:MenuItem>
-                                 <asp:MenuItem Text="Clientes" Value="Clientes"></asp:MenuItem>
-                                 <asp:MenuItem Text="Timbre y Estam." Value="Timbre y Estampillas"></asp:MenuItem>
-                                 <asp:MenuItem Text="Impago" Value="Impago"></asp:MenuItem>
-                                 <asp:MenuItem Text="SBIF" Value="SBIF"></asp:MenuItem>
-                                 <asp:MenuItem Text="Otros" Value="Otros"></asp:MenuItem>
-                                 <asp:MenuItem Text="Salir" Value="Salir"></asp:MenuItem>
-                             </Items>
                              <StaticHoverStyle BackColor="#990000" ForeColor="White" />
                              <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                              <StaticSelectedStyle BackColor="#FFCC66" />
