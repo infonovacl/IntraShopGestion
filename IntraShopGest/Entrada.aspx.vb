@@ -27,8 +27,8 @@
                 For Each rowN2 In DATADSMenuN2.Tables(0).Rows
                     Dim menuItemN2 As New MenuItem()
                     With menuItemN2
-                        .Value = row("column3").ToString
-                        .Text = row("column5").ToString
+                        .Value = rowN2("column3").ToString
+                        .Text = rowN2("column5").ToString
                         .NavigateUrl = ""
                         '.Selected =
                     End With
