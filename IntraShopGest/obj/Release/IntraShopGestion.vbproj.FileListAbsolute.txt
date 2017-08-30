@@ -1,9 +1,3 @@
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.Resources.resources
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGestion.vbproj.GenerateResource.Cache
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.dll
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.xml
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGest.pdb
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGestion.vbprojResolveAssemblyReference.cache
 C:\Github\IntraShopGestion\IntraShopGest\bin\ApplicationInsights.config
 C:\Github\IntraShopGestion\IntraShopGest\bin\roslyn\csc.exe
 C:\Github\IntraShopGestion\IntraShopGest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -35,4 +29,10 @@ C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.AI.Web.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.AI.WindowsServer.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.ApplicationInsights.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGestion.vbproj.CoreCompileInputs.cache
+C:\Github\IntraShopGestion\IntraShopGest\obj\Release\IntraShopGestion.vbprojResolveAssemblyReference.cache
+C:\Github\IntraShopGestion\IntraShopGest\obj\Release\IntraShopGest.Resources.resources
+C:\Github\IntraShopGestion\IntraShopGest\obj\Release\IntraShopGestion.vbproj.GenerateResource.Cache
+C:\Github\IntraShopGestion\IntraShopGest\obj\Release\IntraShopGestion.vbproj.CoreCompileInputs.cache
+C:\Github\IntraShopGestion\IntraShopGest\obj\Release\IntraShopGest.dll
+C:\Github\IntraShopGestion\IntraShopGest\obj\Release\IntraShopGest.xml
+C:\Github\IntraShopGestion\IntraShopGest\obj\Release\IntraShopGest.pdb

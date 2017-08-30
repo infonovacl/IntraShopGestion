@@ -14,13 +14,22 @@ Option Explicit On
 Partial Public Class Avance_Comparativo
     
     '''<summary>
-    '''Control Label1.
+    '''Control LBL_Titulo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents LBL_Titulo As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Control LBL_CodSucursal.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents LBL_CodSucursal As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control LBL_USUARIO.
@@ -95,6 +104,24 @@ Partial Public Class Avance_Comparativo
     Protected WithEvents BTN_CalendarioInicial As Global.System.Web.UI.WebControls.ImageButton
     
     '''<summary>
+    '''Control Label18.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Label18 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Control TXT_Monto1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TXT_Monto1 As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
     '''Control UpdatePanel6.
     '''</summary>
     '''<remarks>
@@ -165,6 +192,24 @@ Partial Public Class Avance_Comparativo
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTN_CalendarioFinal As Global.System.Web.UI.WebControls.ImageButton
+    
+    '''<summary>
+    '''Control Label19.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Label19 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Control TXT_Monto2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TXT_Monto2 As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control BTN_Limpiar.

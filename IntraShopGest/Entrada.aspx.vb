@@ -15,8 +15,9 @@
                 With menuItem
                     .Value = row("column1").ToString
                     .Text = row("column3").ToString
-                    .NavigateUrl = ""
+                    '.NavigateUrl = "BaseInforme.aspx"
                     '.Selected =
+                    'menu.Nodes.Item(0).ChildNodes.Item(1).ChildNodes.Item(2).NavigateUrl = "javascript:my_window=window.open('/Mantenciones/Mantenciones_Adicionales.aspx?rut=" & Trim(Me.TXT_ConsultaRutCliente.Text) & "','Adicionales','top=260,width=770,height=290,left=220',scrollbars='NO',resizable='NO');my_window.focus()"
                 End With
                 panelmenu.Items.Add(menuItem)
                 Dim DATADSMenuN2 As New Data.DataSet
@@ -29,7 +30,7 @@
                     With menuItemN2
                         .Value = rowN2("column3").ToString
                         .Text = rowN2("column5").ToString
-                        .NavigateUrl = ""
+                        .NavigateUrl = "BaseInforme.aspx"
                         '.Selected =
                     End With
                     menuItem.ChildItems.Add(menuItemN2)

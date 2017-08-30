@@ -50,18 +50,9 @@ Propiedad Master.
 Propiedad generada automáticamente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Avance_Comparativo._LBL_Titulo">
+<member name="F:IntraShopGest.Avance_Comparativo._Label1">
 <summary>
-Control LBL_Titulo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Avance_Comparativo._LBL_CodSucursal">
-<summary>
-Control LBL_CodSucursal.
+Control Label1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -140,24 +131,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Avance_Comparativo._Label18">
-<summary>
-Control Label18.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Avance_Comparativo._TXT_Monto1">
-<summary>
-Control TXT_Monto1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel6">
 <summary>
 Control UpdatePanel6.
@@ -224,24 +197,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:IntraShopGest.Avance_Comparativo._BTN_CalendarioFinal">
 <summary>
 Control BTN_CalendarioFinal.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Avance_Comparativo._Label19">
-<summary>
-Control Label19.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Avance_Comparativo._TXT_Monto2">
-<summary>
-Control TXT_Monto2.
 </summary>
 <remarks>
 Campo generado automáticamente.

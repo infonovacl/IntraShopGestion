@@ -63,10 +63,7 @@ time()
         .auto-style3 {
             text-align: center;
         }
-        .auto-style5 {
-            width: 100%;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -76,7 +73,7 @@ time()
                  AsyncPostBackTimeout="720" EnableViewState="False" LoadScriptsBeforeUI="False" 
                  ScriptMode="Release">
              </asp:ScriptManager>
-                <asp:Image ID="Logo1" runat="server" BorderStyle="None" Height="70px" ImageUrl="~/Imagenes/familyshop_logo.jpg" Width="146px" />
+                <asp:Image ID="Logo1" runat="server" BorderStyle="None" Height="70px" ImageUrl="~/Imagenes/familyshop_logo.jpg" Width="130px" />
              <br />
              </div>
          <div id ="contenido" runat="server">                     

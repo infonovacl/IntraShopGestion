@@ -38,5 +38,10 @@ Public Class Avance_Comparativo
         If Not mpLabel Is Nothing Then
             LBL_USUARIO.Text = mpLabel.Text
         End If
+        Dim mpLabel2 As Label
+        mpLabel2 = CType(Master.FindControl("CTienda"), Label)
+        If Not mpLabel2 Is Nothing Then
+            LBL_CodSucursal.Text = mpLabel2.Text
+        End If
     End Sub
 End Class
