@@ -54,7 +54,10 @@ var all="Hoy es: "+day+", "+date+" de "+month+". La hora es: "+hour+":"+min+":"+
 window.status=all
 window.setTimeout("time()",300)
 }
-time()
+            time()
+            function dummy() {
+                return false;
+            }
 </script> 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -124,19 +127,19 @@ time()
                  </table>
            </div>
          <div id="menuprincipal">
-                 <asp:UpdatePanel ID="UpdatePanel2" runat="server">
-                     <ContentTemplate>
-                         <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" CssClass="fuente_menucolgante" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px" Visible="False" Width="990px">
-                             <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
-                             <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                             <DynamicMenuStyle BackColor="#FFFBD6" />
-                             <DynamicSelectedStyle BackColor="#FFCC66" />
-                             <StaticHoverStyle BackColor="#990000" ForeColor="White" />
-                             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                             <StaticSelectedStyle BackColor="#FFCC66" />
-                         </asp:Menu>
-                     </ContentTemplate>
-                 </asp:UpdatePanel>
+                         <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                             <ContentTemplate>
+                                 <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" CssClass="fuente_menucolgante" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px" ViewStateMode="Enabled" Width="990px" ClientOnItemSelect="Dummy()">
+                                     <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                                     <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                     <DynamicMenuStyle BackColor="#FFFBD6" />
+                                     <DynamicSelectedStyle BackColor="#FFCC66" />
+                                     <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                     <StaticSelectedStyle BackColor="#FFCC66" />
+                                 </asp:Menu>
+                             </ContentTemplate>
+                         </asp:UpdatePanel>
              </div>
       </div>
     </form>

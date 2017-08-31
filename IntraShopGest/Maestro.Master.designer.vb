@@ -203,13 +203,13 @@ Partial Public Class Maestro
     Protected WithEvents RutUsu As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control UpdatePanel2.
+    '''Control UpdatePanel1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents UpdatePanel2 As Global.System.Web.UI.UpdatePanel
+    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
     
     '''<summary>
     '''Control Menu1.

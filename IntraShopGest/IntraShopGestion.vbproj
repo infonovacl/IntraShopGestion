@@ -128,6 +128,7 @@
     <Content Include="Entrada.aspx" />
     <Content Include="css\EstilosShop.css" />
     <Content Include="css\Maestro.css" />
+    <Content Include="family.txt" />
     <Content Include="Imagenes\Calendar_HD.png" />
     <Content Include="Imagenes\cancela.png" />
     <Content Include="Imagenes\cargando.gif" />

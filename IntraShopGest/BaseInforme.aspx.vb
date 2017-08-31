@@ -44,4 +44,9 @@ Public Class Avance_Comparativo
             LBL_CodSucursal.Text = mpLabel2.Text
         End If
     End Sub
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Dim panelmenu As Menu
+        panelmenu = Master.FindControl("Menu1")
+        panelmenu.Visible = True
+    End Sub
 End Class

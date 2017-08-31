@@ -59,18 +59,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Avance_Comparativo._LBL_CodSucursal">
+<member name="F:IntraShopGest.Avance_Comparativo._LBL_USUARIO">
 <summary>
-Control LBL_CodSucursal.
+Control LBL_USUARIO.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Avance_Comparativo._LBL_USUARIO">
+<member name="F:IntraShopGest.Avance_Comparativo._LBL_CodSucursal">
 <summary>
-Control LBL_USUARIO.
+Control LBL_CodSucursal.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -98,24 +98,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:IntraShopGest.Avance_Comparativo._TXT_FechaInicial">
 <summary>
 Control TXT_FechaInicial.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel1">
-<summary>
-Control UpdatePanel1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Avance_Comparativo._CalendarInicial">
-<summary>
-Control CalendarInicial.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -158,27 +140,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel6">
-<summary>
-Control UpdatePanel6.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:IntraShopGest.Avance_Comparativo._CalendarFinal">
-<summary>
-Control CalendarFinal.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:IntraShopGest.Avance_Comparativo._BTN_Buscar">
 <summary>
 Control BTN_Buscar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._BTN_Imprimir">
+<summary>
+Control BTN_Imprimir.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -251,6 +224,51 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:IntraShopGest.Avance_Comparativo._BTN_Limpiar">
 <summary>
 Control BTN_Limpiar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._BTN_Excel">
+<summary>
+Control BTN_Excel.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel6">
+<summary>
+Control UpdatePanel6.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._CalendarFinal">
+<summary>
+Control CalendarFinal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:IntraShopGest.Avance_Comparativo._CalendarInicial">
+<summary>
+Control CalendarInicial.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -446,9 +464,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:IntraShopGest.Maestro._UpdatePanel2">
+<member name="F:IntraShopGest.Maestro._UpdatePanel1">
 <summary>
-Control UpdatePanel2.
+Control UpdatePanel1.
 </summary>
 <remarks>
 Campo generado automáticamente.
