@@ -35,7 +35,7 @@
                 With menuItemN2
                     .Value = rowN2("column3").ToString
                     .Text = rowN2("column5").ToString
-                    .NavigateUrl = "BaseInforme.aspx"
+                    .NavigateUrl = "BaseInforme.aspx?titulo=" & Trim(rowN2("column5").ToString) & "&psucu=" & Trim(rowN2("column7").ToString) & "&pfec1=" & Trim(rowN2("column8").ToString) & "&pfec2=" & Trim(rowN2("column9").ToString) & "&pmon1=" & Trim(rowN2("column10").ToString) & "&pmon2=" & Trim(rowN2("column11").ToString) & "&pplan=" & Trim(rowN2("column12").ToString) & "&pproc=" & Trim(rowN2("column13").ToString) & "&pcabc=" & Trim(rowN2("column14").ToString) & ""
                     '.Selectable = False                   
                 End With
                 menuItem.ChildItems.Add(menuItemN2)

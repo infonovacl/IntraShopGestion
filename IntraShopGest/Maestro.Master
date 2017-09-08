@@ -66,6 +66,10 @@ window.setTimeout("time()",300)
         .auto-style3 {
             text-align: center;
         }
+        .style1
+        {
+            width: 46px;
+        }
         </style>
 </head>
 <body>
@@ -76,7 +80,8 @@ window.setTimeout("time()",300)
                  AsyncPostBackTimeout="720" EnableViewState="False" LoadScriptsBeforeUI="False" 
                  ScriptMode="Release">
              </asp:ScriptManager>
-                <asp:Image ID="Logo1" runat="server" BorderStyle="None" Height="70px" ImageUrl="~/Imagenes/familyshop_logo.jpg" Width="130px" />
+                <asp:Image ID="Logo1" runat="server" BorderStyle="None" Height="70px" 
+                 ImageUrl="~/Imagenes/familyshop_logo.jpg" Width="130px" />
              <br />
              </div>
          <div id ="contenido" runat="server">                     
@@ -94,7 +99,7 @@ window.setTimeout("time()",300)
          <div id ="datausuario" runat="server">                                           
              <table style="width: 210px; height: 75px">
                  <tr>
-                     <td>
+                     <td class="style1">
                          <asp:Label ID="Label18" runat="server" Text="Usuario" CssClass="etiquetas"></asp:Label>
                      </td>
                      <td colspan="3">
@@ -102,7 +107,7 @@ window.setTimeout("time()",300)
                      </td>
                  </tr>
                  <tr>
-                     <td>
+                     <td class="style1">
                          <asp:Label ID="Label19" runat="server" Text="Cód.Tda." CssClass="etiquetas"></asp:Label>
                      </td>
                      <td>
@@ -116,12 +121,12 @@ window.setTimeout("time()",300)
                      </td>
                  </tr>
                  <tr>
-                     <td>
+                     <td class="style1">
                          <asp:Label ID="Label20" runat="server" Text="Tienda" CssClass="etiquetas"></asp:Label>
                      </td>
                      <td colspan="3">
                          <asp:Label ID="LBL_NTienda" runat="server" CssClass="etiquetas"></asp:Label>
-                         <asp:Label ID="RutUsu" runat="server" CssClass="etiquetas"></asp:Label>
+                         <asp:Label ID="RutUsu" runat="server" CssClass="etiquetas" Visible="False"></asp:Label>
                      </td>
                  </tr>
                  </table>
