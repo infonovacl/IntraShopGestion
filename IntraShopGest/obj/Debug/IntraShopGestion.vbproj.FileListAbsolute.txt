@@ -17,7 +17,6 @@ C:\Github\IntraShopGestion\IntraShopGest\bin\roslyn\System.Reflection.Metadata.d
 C:\Github\IntraShopGestion\IntraShopGest\bin\roslyn\vbc.exe
 C:\Github\IntraShopGestion\IntraShopGest\bin\roslyn\VBCSCompiler.exe
 C:\Github\IntraShopGestion\IntraShopGest\bin\roslyn\VBCSCompiler.exe.config
-C:\Github\IntraShopGestion\IntraShopGest\bin\IntraShopGest.dll.config
 C:\Github\IntraShopGestion\IntraShopGest\bin\IntraShopGest.dll
 C:\Github\IntraShopGestion\IntraShopGest\bin\IntraShopGest.pdb
 C:\Github\IntraShopGestion\IntraShopGest\bin\IntraShopGest.xml
@@ -35,4 +34,3 @@ C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.AI.Web.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.AI.WindowsServer.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.ApplicationInsights.xml
 C:\Github\IntraShopGestion\IntraShopGest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Github\IntraShopGestion\IntraShopGest\obj\Debug\IntraShopGestion.vbproj.CoreCompileInputs.cache
